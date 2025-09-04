@@ -1,0 +1,129 @@
+@media (max-width: 1300px) {
+  .attraction-sec {
+    .attraction-sec-wrapper {
+      .img-rect-box {
+        max-width: 250px;
+      }
+    }
+  }
+
+  .footer-section {
+    .footer-box,
+    .social-box {
+      img {
+        height: 30px !important;
+        width: 30px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section .hero-box {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 5rem;
+  }
+
+  .main-head-wrapper {
+    .main-logo {
+      max-width: 160px;
+    }
+  }
+
+  .attraction-sec {
+    .attraction-sec-wrapper {
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+      .img-rect-box {
+        display: none;
+      }
+    }
+  }
+
+  .footer-section {
+    .footer-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 0 40px;
+
+      .footer-box {
+        max-width: 320px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .exhibition-features {
+    .exhibition-feature-slide {
+      padding: 10px 20px;
+    }
+  }
+  .appointment-section {
+    flex-direction: column;
+    background: transparent;
+  }
+
+  .attraction-sec {
+    .attraction-sec-wrapper {
+      padding: 40px 15px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .exhibition-features {
+    height: 450px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+  }
+  .attraction-sec {
+    & .attraction-sec-wrapper {
+      & .text-content {
+        .btn-wrapper {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  .hero-section {
+    .hero-box {
+      .left-box {
+        .venue-box {
+          padding: 3% 7%;
+          gap: 20px;
+
+          .left {
+            &::after {
+              height: 50px;
+              top: 8px;
+              right: -10px;
+            }
+
+            .text2 {
+              line-height: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .main-head-wrapper {
+    padding: 10px 0;
+    .main-logo {
+      display: none;
+    }
+  }
+
+  .exhibition-features {
+    .exhibition-feature-slide {
+      margin: 0 15px;
+    }
+  }
+}

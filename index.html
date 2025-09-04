@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task submission - Khalid</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header>
+            <div class="main-head " id="mainHead">
+                <div class="content">
+                    <div class="main-head-wrapper">
+
+                        <div class="main-logo"><img class="responsive-img" src="./assets/main-logo-cropped.svg" alt="main-logo"
+                                width="150" height="80"></div>
+                        <div class="header-btn"><a href="#" class="theme-btn register-btn">
+                             <img class="arrow-1"
+                                    src="./assets/arrow.svg" alt="arrow-icon" width="16">
+                                    <img class="arrow-2"
+                                    src="./assets/arrow-2.svg" alt="arrow-icon" width="16">
+                                    <span class="btn-txt"> REGISTER
+                                    NOW</span></a></div>
+                    </div>
+                </div>
+            </div>
+              </header>
+
+        <main>
+            <!-- hero section -->
+            <section>
+                <div class="hero-section">
+                    <div class="content">
+                        <div class="hero-box">
+                            <div class="left-box">
+                                <div class="hero-text">
+                                    <h3 class="head1">Discover Gurugram’s</h3>
+                                    <h3 class="head2">Top 30+ Schools</h3>
+                                    <span class="sub-head">All In One Place</span>
+                                </div>
+
+                                <div class="venue-box">
+                                    <div class="left">
+                                        <span class="bold-font text2">Apparel House,</span>
+                                        <span class="medium-font text3">Sec 44, Gurugram</span>
+                                    </div>
+                                    <div class="right">
+                                        <span class="bold-font text2">2-3 August 2025 </span>
+                                        <span class="text3"> Sat-Sun | 10AM - 6PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-section">
+                                <!-- Slider 1 -->
+                                <div class="swiper slider1">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="assets/slider-11.png" alt="School 1"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-12.png" alt="School 2"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-13.png" alt="School 3"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-14.png" alt="School 4"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Slider 2 -->
+                                <div class="swiper slider2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="assets/slider-21.svg" alt="School 5"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-22.png" alt="School 6"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-23.png" alt="School 7"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-24.png" alt="School 8"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Slider 3 -->
+                                <div class="swiper slider3">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="assets/slider-31.png" alt="School 9"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-32.png" alt="School 10"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-33.svg" alt="School 11"></div>
+                                        <div class="swiper-slide"><img src="assets/slider-34.svg" alt="School 12"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-controls">
+                                <button id="pausePlayBtn" class="pause-play-btn"><i
+                                        class="fa-solid fa-pause"></i></button>
+                            </div>
+
+                            <div class="right-box">
+                                <form class="enquire-form" action="#" method="post">
+                                    <p class="form-head">Enquire Now</p>
+                                    <input type="text" id="parentName" name="Parent name" placeholder="Parent's name">
+                                    <input type="text"
+                                        oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);"
+                                        minlength="10" maxlength="10" id="contact-num" name="contact number"
+                                        placeholder="Phone number" required>
+                                    <input type="text" id="grade" name="grade"
+                                        placeholder="Which grade are you looking for ?">
+
+                                    <button class="form-btn" type="submit" value="Submit"><span href="#"
+                                            class="theme-btn submit-btn"> <img src="./assets/arrow-2.svg"
+                                                alt="arrow-icon" width="16"><span class="btn-txt"> SUBMIT</span></span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- feature section -->
+            <section>
+                <div class="features-section">
+                    <div class="content">
+                        <div class="features">
+                            <div class="feature-box">
+                                <img src="./assets/leafs.svg" alt="Feature 1" width="200" class="responsive-img">
+                                <div class="feature-text">Trusted by <br>
+                                    <b> 1 Million+</b> <br>
+                                    Parents
+                                </div>
+                            </div>
+                            <div class="feature-box">
+                                <img src="./assets/leafs.svg" alt="Feature 2" width="200" class="responsive-img">
+
+                                <div class="feature-text"> <b>22+ <br>
+                                        Years</b> <br>
+                                    of Legacy</div>
+                            </div>
+                            <div class="feature-box">
+                                <img src="./assets/leafs.svg" alt="Feature 3" width="200" class="responsive-img">
+
+                                <div class="feature-text"><b>500+</b> <br> Participating <br> Schools
+                                </div>
+                            </div>
+
+                            <div class="feature-box">
+                                <img src="./assets/leafs.svg" alt="Feature 3" width="200" class="responsive-img">
+
+                                <div class="feature-text"><b>17 Cities</b> <br> Across the <br> Globe
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Participating schools  section -->
+            <section>
+                <div class="school-slider-section">
+                    <div class="section-head">
+                        <h3>Participating Schools</h3>
+
+                    </div>
+                    <div class="main-slider-box">
+
+                        <div class="swiper mySwiper4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-1.svg" alt="School 1">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-2.svg" alt="School 2">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-3.svg" alt="School 3">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-4.svg" alt="School 4">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-5.svg" alt="School 5">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-6.svg" alt="School 6">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-4.svg" alt="School 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-1.svg" alt="School 1">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-2.svg" alt="School 2">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-3.svg" alt="School 3">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-4.svg" alt="School 4">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-5.svg" alt="School 5">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-6.svg" alt="School 6">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="school-slide">
+                                        <img src="./assets/school-4.svg" alt="School 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- event video section -->
+            <section>
+                <div class="event-video-section">
+
+                    <video width="100%" height="auto" controls poster="assets/event-video-preview.svg">
+                        <source src="assets/event.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="custom-controls">
+                        <button class="control-btn play-pause">
+                            <img src="./assets/event-play-btn.svg" height="50" width="50" alt="">
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- School categories section -->
+            <section>
+                <div class="school-category-section">
+                    <div class="section-head">
+                        <h3>Choose the School That Fits You Best</h3>
+
+                    </div>
+                    <div class="content">
+                        <div class="categories">
+                            <div class="category-box">
+                                <img src="./assets/category-1.svg" alt="category-1" width="200" class="responsive-img">
+                                <div class="category-text">
+                                    <p class="head">
+                                        Pre-Schools & Early Learning Centres
+                                    </p>
+                                    <span class="para">Nurturing foundational skills for <br>
+                                        toddlers and pre-primary
+                                        children.</span>
+                                </div>
+                            </div>
+                            <div class="category-box">
+                                <img src="./assets/category-2.png" alt="category-2" width="200" class="responsive-img">
+
+                                <div class="category-text">
+                                    <p class="head">
+                                        K–12 CBSE Day Schools
+                                    </p>
+                                    <span class="para">Reputed schools offering complete <br> schooling from
+                                        Kindergarten to
+                                        Grade 12.</span>
+                                </div>
+                            </div>
+                            <div class="category-box">
+                                <img src="./assets/category-3.svg" alt="category-3" width="200" class="responsive-img">
+
+                                <div class="category-text">
+                                    <p class="head">
+                                        Heritage to New-Age Schools
+                                    </p>
+                                    <span class="para">Time-tested schools to innovative pedagogy, <br> tech enabled,
+                                        future-ready schools.</span>
+                                </div>
+                            </div>
+
+                            <div class="category-box">
+                                <img src="./assets/category-4.svg" alt="category-4" width="200" class="responsive-img">
+
+                                <div class="category-text">
+                                    <p class="head">
+                                        International Curriculum Schools
+                                    </p>
+                                    <span class="para">Offering IB, Cambridge, Finnish and other <br> global curricula
+                                        with a
+                                        global learning environment.</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- appointment section -->
+            <section>
+                <div class="appointment-section">
+
+                    <div class="left">
+                        <div class="text-content">
+                            <p class="sub-para">
+                                Exciting Opportunities for Parents!
+                            </p>
+                            <h3 class="head">
+                                Pre-schedule Your <br>
+                                School Appointments
+                            </h3>
+                            <p class="sub-para">
+                                To Avoid Rush
+                            </p>
+                            <div class="schedule">
+                                <a href="#" class="theme-btn schedule-btn"> <img src="./assets/arrow.svg"
+                                        alt="arrow-icon" width="16"><span class="btn-txt"> PRE-SCHEDULE
+                                        NOW</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="appointment-img">
+                        <img src="./assets/appointment-bg.png" alt="appointment-bg" class="responsive-img" height="400"
+                            width="500">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- attraction section -->
+            <section class="attraction-sec">
+                <div class="content">
+                    <div class="attraction-sec-wrapper">
+                        <div class="img-rect-box">
+                            <div class="top">
+                                <span> <img src="./assets/attractions-1.png" alt="attraction-img"></span>
+                                <span><img src=".//assets/attractions-2.png" alt="attraction-img"></span>
+                            </div>
+                            <div class="bottom">
+
+                                <span><img src="./assets/attractions-3.png" alt="attraction-img"></span>
+                                <span><img src="./assets/attractions-4.png" alt="attraction-img"></span>
+                            </div>
+                        </div>
+
+                        <div class="premier-kidz-logo">
+                            <img src="./assets/premier-kidz.svg" alt="premier-kidz" class="responsive-img" height="150"
+                                width="150">
+                        </div>
+
+                        <div class="text-content">
+                            <h3>
+                                Other Attractions for <br>
+
+                                Parents & Kids
+                            </h3>
+
+                            <div class="btn-wrapper">
+                                <a href="#" class="btn-purple">Premier Kidz Awards </a>
+                                <a href="#" class="btn-white">The Parent Exchange</a>
+                            </div>
+
+                            <p class="sub-head">Premier Kidz Awards </p>
+                            <p class="para">A prestigious platform celebrating young talent and building <br> confidence
+                                by giving
+                                children the spotlight to shine.
+                            </p>
+
+                            <a href="#" class="theme-btn know-more-btn"> <img src="./assets/arrow.svg" alt="arrow-icon"
+                                    width="16"><span class="btn-txt"> TO KNOW MORE</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- exhibition section -->
+            <section class="exhibition-features">
+                <div class="head-txt">
+                    <h3>What Makes This Exhibition a Must-Visit</h3>
+                </div>
+
+                <div class="swiper mySwiper6">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-1.svg" alt="exhibitiion-feature-1" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Interact Directly with School Heads </p>
+                                <p class="light-font text2">Get answers straight from the experts</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-2.svg" alt="exhibitiion-feature-2" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Compare Curriculum & Pedagogy </p>
+                                <p class="light-font text2">Understand the differences between CBSE, ICSE, IB,
+                                    Cambridge, Finnish & more</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-3.svg" alt="exhibitiion-feature-3" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Get Exclusive Fee Structures & Offers </p>
+                                <p class="light-font text2">Access transparent information and avail offers</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-4.svg" alt="exhibitiion-feature-4" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Explore Schols Offerings</p>
+                                <p class="light-font text2">Preview infrastructure, co-curricular, teaching methodology
+                                    and culture</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-5.svg" alt="exhibitiion-feature-5" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">On-the-Spot Admissions & Counselling </p>
+                                <p class="light-font text2">Save time with instant applications and expert guidance</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-2.svg" alt="exhibitiion-feature-6" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Interact Directly with School Heads </p>
+                                <p class="light-font text2">Get answers straight from the experts</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="exhibition-feature-slide">
+                                <img src="./assets/exhibitiion-feature-1.svg" alt="exhibitiion-feature-1" height="50"
+                                    width="50">
+                                <p class="text1 bold-font">Interact Directly with School Heads </p>
+                                <p class="light-font text2">Get answers straight from the experts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigations">
+                    <div class="swiper-button-prev"><img src="./assets/arrow-left.svg" alt="prev-btn"></div>
+                    <div class="swiper-button-next"><img src="./assets/arrow-right.svg" alt="next-btn"></div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-section">
+                <div class="content">
+                    <div class="footer-wrapper">
+                        <div class="img-box">
+                            <img src="./assets/footer-logo.svg" alt="footer-logo">
+                        </div>
+
+                        <div class="footer-box">
+                            <div class="icon-box"><img src="./assets/footer-logo-1.svg" alt=""></div>
+                            <div class="txt-content">
+                                <p class="head bold-font"> Corporate Office:</p>
+                                <p class="para light-font">Suite B-5, Ballygunge Park Tower,
+                                    67B Ballygunge Circular Road, Kolkata - 700019
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="footer-box">
+                            <div class="icon-box"><img src="./assets/footer-logo-1.svg" alt=""></div>
+                            <div class="txt-content">
+                                <p class="head bold-font"> Corporate Office:</p>
+                                <p class="para light-font">Suite B-5, Ballygunge Park Tower,
+                                    67B Ballygunge Circular Road, Kolkata - 700019
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="footer-box">
+                            <div class="icon-box"><img src="./assets/footer-logo-2.svg" alt=""></div>
+                            <div class="txt-content">
+                                <p class="head bold-font">Call us on:</p>
+                                <p class="para light-font">
+                                    <a href="#">9674805912
+                                    </a> <br>
+
+                                    <a href="#"> 9674585012</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="social-box">
+                            <p class="head bold-font">Follow us on</p>
+                            <div class="social-icons">
+                                <a href="http://" target="_blank" rel="noopener noreferrer"><img
+                                        src="./assets/insta-icon.svg" alt="instagram"></a>
+                                <a href="http://" target="_blank" rel="noopener noreferrer"><img
+                                        src="./assets/fb-icon.svg" alt="facebook"></a>
+                                <a href="http://" target="_blank" rel="noopener noreferrer"><img
+                                        src="./assets/youtube.svg" alt="youtube"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Go to Top Button -->
+    <button id="goToTop" class="go-to-top-btn">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
