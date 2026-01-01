@@ -937,6 +937,10 @@ body {
       align-items: center;
       transition: transform 0.3s ease-in;
 
+      svg {
+        display: none;
+      }
+
       &:hover {
         transform: scale(0.9);
       }
@@ -1056,3 +1060,4 @@ body {
 .go-to-top-btn.show {
   display: flex;
 }
+
